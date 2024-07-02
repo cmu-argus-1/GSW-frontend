@@ -19,7 +19,7 @@ const Page = () => {
   const [endDate, setEndDate] = useState(today);
 
   useEffect(() => {
-    fetch("http://172.26.177.208:5500/heartbeat/by_time/imu?start_time=-1d&stop_time=-1h", {
+    fetch("http://localhost:5500/heartbeat/by_time/imu?start_time=-1d&stop_time=-1h", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
