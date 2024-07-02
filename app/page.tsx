@@ -20,7 +20,7 @@ const Page = () => {
 
   useEffect(() => {
     fetch("http://localhost:5500/heartbeat/by_time/imu?start_time=-1d&stop_time=-1h", {
-      method: "GET", mode: "no-cors",
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
