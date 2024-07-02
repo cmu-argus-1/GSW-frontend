@@ -21,11 +21,11 @@ const Page = () => {
   useEffect(() => {
     fetch("http://172.26.177.208:5500/heartbeat/by_time/imu?start_time=-5d&stop_time=-1h", {
       method: "GET",  mode: 'no-cors'})
-      .then((response) => (response.json()))
+      .then((response) => {response.json()})
       .then((data) => {
         console.log(data);
       })
-      .catch((error) => (console.log(error)));
+      .catch((error) => {console.log(error)});
   }, []);
 
   return (
