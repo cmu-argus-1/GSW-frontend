@@ -1,0 +1,21 @@
+/* pages/page.module.css */
+
+.container {
+  background-color: #c9d2e1;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  color: #111231; 
+  font-weight: bolder;
+}
+
+.para {
+  color: #111231; 
+  font-weight: bolder;
+}
