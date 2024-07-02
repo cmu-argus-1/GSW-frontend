@@ -20,7 +20,7 @@ const Page = () => {
 
   useEffect(() => {
     fetch("http://172.26.177.208:5500/heartbeat/by_time/imu?start_time=-1d&stop_time=-1h", {
-      method: "GET",  mode: 'no-cors'})
+      method: "GET"})
       .then((response) => {
         console.log(response);
         response.json();
