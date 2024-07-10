@@ -11,11 +11,19 @@
 }
 
 .title {
-  color: #111231; 
+  color: #000; 
   font-weight: bolder;
 }
 
 .para {
-  color: #111231; 
+  color: #000; 
   font-weight: bolder;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  border: 1px solid black;
+  color: black;
+  margin: 20px;
 }
