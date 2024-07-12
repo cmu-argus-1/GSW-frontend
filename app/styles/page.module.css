@@ -1,7 +1,5 @@
 /* pages/page.module.css */
-
 .container {
-  background-color: #c9d2e1;
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -26,4 +24,11 @@
   border: 1px solid black;
   color: black;
   margin: 20px;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin: 30px;
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "./styles/globals.css";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import { StyledRoot } from './StyledRoot';
 // import { LocalizationProvider } from '@mui/x-date-pickers';
@@ -25,9 +25,6 @@ export default function RootLayout({
         <AppRouterCacheProvider>
            <StyledRoot>{children}</StyledRoot>
         </AppRouterCacheProvider>
-        {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
-          {children}
-        </LocalizationProvider> */}
       </body>
     </html>
   );
