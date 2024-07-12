@@ -22,5 +22,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Using the Website
 
 1. Choose the type of data (imu/sun/battery) and date range of data. 
-2. Click "Fetch Data" (NOTE: Click this every time you change the parameters, the displays do not update automatically).
+2. Click "Fetch Data" (NOTE: Click this every time you change the parameters—the displays do not update automatically).
 
